@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Articles | WODPompier</title>
+
+    <style>
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #111111;
+            color: white;
+            line-height: 1.6;
+        }
+
+        header {
+            background: #181818;
+            padding: 20px 8%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #333;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            text-decoration: none;
+            color: white;
+        }
+
+        .logo span {
+            color: #e32626;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+            font-size: 14px;
+        }
+
+        nav a:hover {
+            color: #e32626;
+        }
+
+        .page {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 80px 30px;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 32px;
+            margin-bottom: 50px;
+        }
+
+        .articles {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 25px;
+        }
+
+        .article-card {
+            background: #1c1c1c;
+            border: 1px solid #333;
+            padding: 30px;
+            border-radius: 8px;
+        }
+
+        .article-card h2 {
+            font-size: 22px;
+            margin-bottom: 15px;
+        }
+
+        .article-card p {
+            color: #cccccc;
+            margin-bottom: 20px;
+        }
+
+        .article-card a {
+            color: #e32626;
+            text-decoration: none;
+            font-weight: 700;
+        }
+
+        .article-card a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            border-top: 1px solid #333;
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media (max-width: 800px) {
+
+            .articles {
+                grid-template-columns: 1fr;
+            }
+
+        }
+
+    </style>
+</head>
+
+<body>
+
+<header>
+
+    <a href="index.html" class="logo">WOD<span>POMPIER</span></a>
+
+    <nav>
+        <a href="index.html#wod">WOD</a>
+        <a href="qui-je-suis.html">QUI JE SUIS</a>
+        <a href="articles.html">ARTICLES</a>
+    </nav>
+
+</header>
+
+
+<main class="page">
+
+    <h1 class="section-title">
+        ARTICLES
+    </h1>
+
+    <div class="articles">
+
+        <div class="article-card">
+
+            <h2>Programme tractions pompier</h2>
+
+            <p>
+                Comment progresser aux tractions et développer sa force
+                pour les exigences physiques du métier de sapeur-pompier.
+            </p>
+
+            <a href="#">
+                Lire l'article →
+            </a>
+
+        </div>
+
+
+        <div class="article-card">
+
+            <h2>Améliorer son Luc Léger</h2>
+
+            <p>
+                Les principes essentiels pour progresser au test de Luc Léger
+                et développer son endurance spécifique.
+            </p>
+
+            <a href="#">
+                Lire l'article →
+            </a>
+
+        </div>
+
+
+        <div class="article-card">
+
+            <h2>Préparation physique concours SPP</h2>
+
+            <p>
+                Comment organiser son entraînement pour préparer les épreuves
+                physiques d'un concours de sapeur-pompier professionnel.
+            </p>
+
+            <a href="#">
+                Lire l'article →
+            </a>
+
+        </div>
+
+
+        <div class="article-card">
+
+            <h2>S'entraîner pendant une garde de 24 h</h2>
+
+            <p>
+                Comment intégrer intelligemment l'entraînement physique
+                dans une journée de garde.
+            </p>
+
+            <a href="#">
+                Lire l'article →
+            </a>
+
+        </div>
+
+    </div>
+
+</main>
+
+
+<footer>
+    © 2026 WODPompier — Tous droits réservés
+</footer>
+
+</body>
+
+</html>
